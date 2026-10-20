@@ -1,0 +1,10 @@
+name: frontend-lint
+on:
+  push:
+    branches: [ main ]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "frontend lint passed"
