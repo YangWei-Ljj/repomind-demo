@@ -37,3 +37,6 @@
 - 每周五生成研发周报。
 - 失败 CI 必须先修复再合并。
 - 所有敏感 token 不得写入日志。
+
+## Experimental database plan
+This experimental plan was not approved.
