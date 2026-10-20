@@ -18,3 +18,5 @@ def login(username: str, token: str | None = None):
 @app.get("/issues")
 def list_issues():
     return [{"number": 1, "title": "Login API returns 500 when token expires"}]
+
+# Performance note: cache issue list in production.
