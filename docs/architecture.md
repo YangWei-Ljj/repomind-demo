@@ -28,3 +28,6 @@
 - Reports：研发周报。
 - Code Graph：符号与关系。
 - Evals：RAGAS 质量评测。
+
+## CI attribution
+CI failures are automatically attributed to the likely failing module.
